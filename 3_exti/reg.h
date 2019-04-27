@@ -101,6 +101,10 @@
 
 #define EXTI_PR_OFFSET 0x14
 
+#define MRx_BIT(y) (y)
+#define TRx_BIT(y) (y)
+#define PRx_BIT(y) (y)
+
 //SYSCFG
 #define SYSCFG_BASE 0x40013800
 
